@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		 <script async src="https://www.googletagmanager.com/gtag/js?id=G-NRDPQP213T"></script>
 		 <script>
@@ -20,6 +21,7 @@
 
 		   gtag('config', 'G-NRDPQP213T');
 		 </script>
+
 	</head>
 	<body class="is-preload">
 
@@ -67,13 +69,13 @@
 								<span class="image main"><img src="images/talk.png" alt="" /><span class="credits">Photo: <a href="https://twitter.com/Ryan__Rhys">Ryan</a>, NeurIPS 2018</span></span>
 									<p> I received my Bachelor’s and Master’s degrees from <b>EPFL</b> (École Polytechnique Fédérale de Lausanne, Switzerland) and I spent the last year of my Bachelor’s studies as an ERASMUS student at the <b>University of Manchester</b>. During my Master’s research, I had the opportunity to be a member of Prof. Nicola Marzari’s laboratory. There, I started the extraction of layered materials from inorganic crystalline compounds databases and calculated the binding energy of the layers, as well as the elastic constants of the parent crystals, with density functional theory. After graduating in October 2016, I completed the last months of my civil service performing experiments in the Functional Polymers laboratory at <b>EMPA</b>. </p> 
 									
-									<p> Since March 2017, I have been working for <b>IBM Research – Europe</b> in the Zurich lab, first in the Cognitive Computing & Industry Solutions and then in the Future of Computing department. My main focus is on <strong>data-driven discovery and synthesis of novel molecules and materials</strong>. During this period, I also studied for one year at the <b>University of Cambridge</b> (MPhil in Physics), and I am currently pursuing my PhD studies in the <a href="http://gdb.unibe.ch" >Reymond Group</a> at the <b>University of Bern</b>. I work at the intersection between chemistry and machine learning and develop tools with practical value for chemists.</p> 
+									<p> Since March 2017, I have been working for <b>IBM Research – Europe</b> in the Zurich lab, in the Cognitive Computing and Industry Solutions department and the Accelerated Discovery group lead by <a href="https://researcher.watson.ibm.com/researcher/view.php?person=zurich-TEO">Teodoro Laino</a>. My main focus is on <strong>data-driven discovery and synthesis of novel molecules and materials</strong>. During this period, I also studied for one year at the <b>University of Cambridge</b> (MPhil in Physics), and I am currently pursuing my PhD studies with <a href="http://gdb.unibe.ch" >Prof Jean-Louis Reymond</a> as supervisor at the <b>University of Bern</b>. I work at the intersection between chemistry and machine learning and develop tools with practical value for chemists.</p> 
 
-									<p> What started as an intern project at IBM Research soon grew into something much more substantial. I was given the opportunity to stay and pursue my PhD studies, combining two things I love – AI and the discovery of materials and molecules. Ever since, my focus has been on applying novel machine learning methods to accelerate chemical synthesis, which is essential, for instance, for the development of new drugs.</p>
+									<p> What started as an intern project at IBM Research soon grew into something much more substantial. I was given the opportunity to stay and pursue my PhD studies, combining two things I love – machine learning and the discovery of materials and molecules. Ever since, my focus has been on applying novel machine learning methods to accelerate chemical synthesis, which is essential, for instance, for the development of new drugs.</p>
  
-									<p> Similar to humans, the AI models I use in my research learn from examples and extract recurring patterns. Once trained, the models can predict unseen entities. What fascinates me is that they can ingest all the scientific literature available within days, which would take a human more than a lifetime. One key success factor of my work is treating chemistry like a human language and casting chemical reaction prediction as a translation task. </p>
+									<p> Similar to humans, the machine learning models I use in my research learn from examples and extract recurring patterns. Once trained, the models can predict unseen entities. What fascinates me is that they can ingest all the scientific literature available within days, which would take a human more than a lifetime. One key success factor of my work is treating chemistry like a human language and casting chemical reaction prediction as a translation task. </p>
 									 
-									<p> In August 2018, our team presented a platform called IBM RXN for Chemistry at the ACS fall  meeting in Boston (<a href="https://www.youtube.com/watch?v=7DVu9ZKPUws">ACS meeting video</a>). Through RXN, my research became freely accessible to anyone in the world. The feedback surpassed all expectations. For the first time, professionals and students could predict chemical reactions in an instant, and without having any coding skills. Since the release, more than 6500 users have joined the platform and generated over 750k reaction predictions. Today, the RXN AI model still performs state-of-the-art on various reaction prediction benchmarks. Recently, we added a retrosynthesis planning tool, which proposes step-by-step recipes for a given target molecule starting from commercially available precursors. Just imagine the possibilities – new drugs, fragrances, dyes or even organic LEDs. </p> 
+									<p> In August 2018, our team presented a platform called IBM RXN for Chemistry at the ACS fall  meeting in Boston (<a href="https://www.youtube.com/watch?v=7DVu9ZKPUws">ACS meeting video</a>). Through RXN, my research became freely accessible to anyone in the world. The feedback surpassed all expectations. For the first time, professionals and students could predict chemical reactions in an instant, and without having any coding skills. Since the release, more than 6500 users have joined the platform and generated over 750k reaction predictions. Today, the RXN model still performs state-of-the-art on various reaction prediction benchmarks. Recently, we added a retrosynthesis planning tool, which proposes step-by-step recipes for a given target molecule starting from commercially available precursors. Just imagine the possibilities – new drugs, fragrances, dyes or even organic LEDs. </p> 
 
 
 									<p> Most of the models I have developed are accessible through the <a href="http://https://rxn.res.ibm.com">IBM RXN for Chemistry platform</a> or on <a href="http://rxnmapper.ai">RXNMapper.ai</a>. Code is available from <a href="https://github.com/pschwllr">GitHub</a>.
@@ -106,22 +108,42 @@
 								<h4>Chemical reaction prediction </h4>
 								<span class="image main"><img src="images/reaction_100_attn_small.gif" alt=""/></span>
 								<ul class="alt">
-									<li>Carbohydrate Transformer: Predicting Regio- and Stereoselective Reactions Using Transfer Learning. <br/>  
+									<li>
+										Carbohydrate Transformer: Predicting Regio- and Stereoselective Reactions Using Transfer Learning. <br/>  
+
+
 										G Pesciullesi<sup>•</sup>, <b>P Schwaller</b><sup>•</sup>, T Laino, J Reymond <br/>  
-										<a href="http://dx.doi.org/10.26434/chemrxiv.11935635">ChemRxiv preprint, 2020</a></li>
+										<a href="http://dx.doi.org/10.26434/chemrxiv.11935635">ChemRxiv preprint, 2020</a>
+										<span class="altmetric-embed badge-right" data-badge-type="4" data-doi="10.26434/chemrxiv.11935635"></span>
+
+									</li>
 									<li>Molecular Transformer: A Model for Uncertainty-Calibrated Chemical Reaction Prediction. 
 										<br/> <b>P Schwaller</b>, T Laino, T Gaudin, P Bolgar, C Bekas, AA Lee
-										<br/>  <a href="https://pubs.acs.org/doi/full/10.1021/acscentsci.9b00576">ACS Cent. Sci. 2019, 5, 9, 1572–1583</a></li>
+										<br/>  <a href="https://pubs.acs.org/doi/full/10.1021/acscentsci.9b00576">ACS Cent. Sci. 2019, 5, 9, 1572–1583</a>
+										<span class="altmetric-embed badge-right" data-badge-type="4" data-doi="10.1021/acscentsci.9b00576"></span>
+									</li>
 									<li>“Found in Translation”: predicting outcomes of complex organic chemistry reactions using neural sequence-to-sequence models. <br/>  
 									<b>P Schwaller</b><sup>•</sup>, T Gaudin<sup>•</sup>, D Lanyi, C Bekas, T Laino <br/>
-									<a href="https://doi.org/10.1039/C8SC02339E">Chem. Sci., 2018, 9, 6091-6098</a></li>
+									<a href="https://doi.org/10.1039/C8SC02339E">Chem. Sci., 2018, 9, 6091-6098</a>
+									<span class="altmetric-embed badge-right" data-badge-type="4" data-doi="10.1039/C8SC02339E"></span>
+								</li>
 								</ul>
 
 								<h4>Multi-step retrosynthesis </h4>
 								<ul class="alt">
-									<li>“Predicting retrosynthetic pathways using a combined linguistic model and hyper-graph exploration strategy. 
+
+									<li>Unassisted Noise-Reduction of Chemical Reactions Data Sets. <br/>  
+										A Toniato, <b>P Schwaller</b>, A Cardinale, J Geluykens, T Laino <br/>  
+										<a href="http://dx.doi.org/10.26434/chemrxiv.12395120">ChemRxiv preprint, 2020</a>
+										<span class="altmetric-embed badge-right" data-badge-type="4" data-doi="10.26434/chemrxiv.12395120"></span>
+									</li>
+										
+
+									<li>Predicting retrosynthetic pathways using a combined linguistic model and hyper-graph exploration strategy. 
 										<br/> <b>P Schwaller</b>, R Petraglia, V Zullo, V H Nair, R A Haeuselmann, R Pisoni, C Bekas, A Iuliano, T Laino
-										<br/>  <a href="http://dx.doi.org/10.1039/c9sc05704h">Chem. Sci., 2020,11, 3316-3325 </a></li>
+										<br/>  <a href="http://dx.doi.org/10.1039/c9sc05704h">Chem. Sci., 2020,11, 3316-3325 </a>
+										<span class="altmetric-embed badge-right" data-badge-type="4" data-doi="10.1039/c9sc05704h"></span>
+									</li>
 								</ul>
 
 								<h4>Mapping Chemical Reaction Space</h4>
@@ -131,6 +153,7 @@
 										<b>P Schwaller</b>, D Probst, AC Vaucher, VH Nair, T Laino, JL Reymond <br/>
 									• <a href="http://dx.doi.org/10.26434/chemrxiv.9897365">ChemRxiv preprint, 2019 </a><br/>
 									• <a href="https://rxn4chemistry.github.io/rxnfp/">Demo/Tutorial/Code</a>
+									<span class="altmetric-embed badge-right" data-badge-type="4" data-doi="10.26434/chemrxiv.9897365"></span>
 									</li>
 								</ul>
 
@@ -140,9 +163,11 @@
 								<ul class="alt">
 									<li>RXNMapper: Unsupervised Attention-Guided Atom-Mapping. <br/>
 										<b>P Schwaller</b>, B Hoover, JL Reymond, H Strobelt, T Laino<br/>
-									• <a href="http://dx.doi.org/10.26434/chemrxiv.9897365">ML Interpretability for Scientific Discovery ICML workshop | ChemRxiv preprint, 2020 </a> <br/>
+									• <a href="http://dx.doi.org/10.26434/chemrxiv.12298559">ML Interpretability for Scientific Discovery ICML workshop | ChemRxiv preprint, 2020 </a> <br/>
 									• <a href="http://rxnmapper.ai">Demo/Code</a> <br/>
 									• <a href="https://vimeo.com/434757113">2 min explanation</a>
+									<span class="altmetric-embed badge-right" data-badge-type="4" data-doi="10.26434/chemrxiv.12298559"></span>
+
 									</li>
 								</ul>
 
@@ -150,17 +175,20 @@
 								<ul class="alt">	
 									<li>Prediction of Chemical Reaction Yields using Deep Learning<br/>  
 										<b>P Schwaller</b>, AC Vaucher, T Laino, JL Reymond <br/>
-									• <a href="http://dx.doi.org/10.26434/chemrxiv.12758474">ChemRxiv preprint, 2020 </a><br/>
+									• <a href="http://dx.doi.org/10.26434/chemrxiv.12758474">ChemRxiv preprint, 2020 </a>
+									<span class="altmetric-embed badge-right" data-badge-type="4" data-doi="10.26434/chemrxiv.12758474"></span>
 									</li>
 								</ul>
 
 
-								<h4>Structured synthesis actions </h4>
+								<h4>Structured synthesis actions - #RoboRXN</h4>
 
 								<ul class="alt">
-									<li>“Automated extraction of chemical synthesis actions from experimental procedures. 
+									<li>Automated extraction of chemical synthesis actions from experimental procedures. 
 										<br/>A C Vaucher, F Zipoli, J Geluykens, V H Nair, <b>P Schwaller</b>, T Laino 
-										<br/>  <a href="http://dx.doi.org/10.1039/c9sc05704h">Nat. Comm., 2020, 11, 3601 </a></li>
+										<br/>  <a href="https://doi.org/10.1038/s41467-020-17266-6">Nat. Comm., 2020, 11, 3601 </a>
+										<span class="altmetric-embed badge-right" data-badge-type="4" data-doi="10.1038/s41467-020-17266-6"></span>
+									</li>
 								</ul>
 								
 								<p>

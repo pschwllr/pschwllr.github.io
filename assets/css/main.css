@@ -1681,3 +1681,9 @@ input, select, textarea {
 	text-align: center;
 	display: block;
 }
+
+.badge-right {
+	max-width: 20%;
+	float: right;
+}
+
