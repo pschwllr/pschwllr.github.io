@@ -15,7 +15,7 @@
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		 <script async src="https://www.googletagmanager.com/gtag/js?id=G-NRDPQP213T"></script>
 		 <script>
-		   window.dataLayer = window.dataLayer || [];
+		   window.dataLayer = window.dataLayer | [];
 		   function gtag(){dataLayer.push(arguments);}
 		   gtag('js', new Date());
 
@@ -107,6 +107,17 @@
 								<h3> Selected Publications</h3>
 								A full list is available from my <a href="https://scholar.google.com/citations?user=Tz0I4ywAAAAJ&hl=en&oi=ao">Google scholar</a> profile. </p>
 
+								<h4>Chemical Reaction Space Exploration</h4>
+								<span class="image main"><img src="images/map.png" alt=""/></span>
+								<ul class="alt">	
+									<li>Mapping the space of chemical reactions using attention-based neural networks. <br/>  
+										<b>P Schwaller</b>, D Probst, AC Vaucher, VH Nair, T Laino, JL Reymond <br/>
+									• <a href="rdcu.be/cenmd">Nature Mach. Intell., 2021</a> | <a href="https://ibm.co/3t0kzPw">[Blog]</a><br/>
+									• <a href="https://rxn4chemistry.github.io/rxnfp/">[Demo/Tutorial/Code]</a> | <a href="https://rxn4chemistry.github.io/rxnfp//tmaps/tmap_ft_10k.html">[Interactive Reaction Atlas]</a>
+									<span class="altmetric-embed badge-right" data-badge-type="4" data-doi="10.1038/s42256-020-00284-w"></span>
+									</li>
+								</ul>
+
 								<h4>Chemical reaction prediction </h4>
 								<span class="image main"><img src="images/reaction_100_attn_small.gif" alt=""/></span>
 								<ul class="alt">
@@ -114,19 +125,22 @@
 										Transfer learning enables the molecular transformer to predict regio- and stereoselective reactions on carbohydrates. <br/>  
 										G Pesciullesi<sup>•</sup>, <b>P Schwaller</b><sup>•</sup>, T Laino, JL Reymond <br/>
 
-										• <a href="https://www.nature.com/articles/s41467-020-18671-7">Nature Comm., 2020, 11, 4874</a>  ||
-										<a href="https://chemistrycommunity.nature.com/posts/transfer-learning-enables-the-molecular-transformer-to-predict-regio-and-stereoselective-reactions-on-carbohydrates">Blog post</a><br/>
+										• <a href="https://www.nature.com/articles/s41467-020-18671-7">Nature Comm., 2020, 11, 4874</a>  |
+										<a href="https://chemistrycommunity.nature.com/posts/transfer-learning-enables-the-molecular-transformer-to-predict-regio-and-stereoselective-reactions-on-carbohydrates">[Blog]</a><br/>
 										• <a href="https://www.nature.com/collections/wdzvyhgxft/content/giovanni-bottari">Organic Chemistry and Chemical Biology - Editors' highlights</a>
 										<span class="altmetric-embed badge-right" data-badge-type="4" data-doi="10.1038/s41467-020-18671-7"></span>
 									</li>
 									<li>Molecular Transformer: A Model for Uncertainty-Calibrated Chemical Reaction Prediction. 
-										<br/> <b>P Schwaller</b>, T Laino, T Gaudin, P Bolgar, C Bekas, AA Lee
-										<br/>• <a href="https://pubs.acs.org/doi/full/10.1021/acscentsci.9b00576">ACS Cent. Sci. 2019, 5, 9, 1572–1583</a>
+										<br/> <b>P Schwaller</b>, T Laino, T Gaudin, P Bolgar, CA Hunter, C Bekas, AA Lee
+										<br/>• <a href="https://pubs.acs.org/doi/full/10.1021/acscentsci.9b00576">ACS Cent. Sci. 2019, 5, 9, 1572–1583</a> | <a href="https://github.com/pschwllr/MolecularTransformer">[Code]</a>
+										<br/>• Featured in: <a href="https://cen.acs.org/physical-chemistry/computational-chemistry/Teaching-computers-read-speak-chemistry/99/i5">[C&EN]</a> <a href="https://www.chemistryworld.com/news/language-based-softwares-accurate-predictions-translate-to-benefits-for-chemists/4010437.article">[Chemistry World]</a>
 										<span class="altmetric-embed badge-right" data-badge-type="4" data-doi="10.1021/acscentsci.9b00576"></span>
 									</li>
 									<li>“Found in Translation”: predicting outcomes of complex organic chemistry reactions using neural sequence-to-sequence models. <br/>  
 									<b>P Schwaller</b><sup>•</sup>, T Gaudin<sup>•</sup>, D Lanyi, C Bekas, T Laino <br/>
 									• <a href="https://doi.org/10.1039/C8SC02339E">Chem. Sci., 2018, 9, 6091-6098</a>
+									<br/> • <a href="https://pubs.rsc.org/en/journals/articlecollectionlanding?sercode=sc&themeid=02ec2dec-e7e7-4d78-8411-7afb634a771a">Chemical Science: Most popular articles 2018-2019</a>
+									<br/>• Featured in: <a href="https://www.chemistryworld.com/news/ai-translates-chemistry-to-predict-reaction-outcomes/3008397.article">[Chemistry World]</a> <a href="https://cen.acs.org/physical-chemistry/computational-chemistry/Teaching-computers-read-speak-chemistry/99/i5">[C&EN]</a> <a href="https://spectrum.ieee.org/tech-talk/artificial-intelligence/machine-learning/artificial-intelligence-learns-chemical-reactions">[IEEE Spectrum]</a> <br/> <a href="https://www.technologyreview.com/2017/12/04/105020/a-translation-algorithm-can-predict-the-language-of-a-chemical-reaction/">[MIT Techchnology Review]</a> <a href="https://phys.org/news/2017-12-artificial-intelligence-chemical-reactions.html">[phys.org]</a>
 									<span class="altmetric-embed badge-right" data-badge-type="4" data-doi="10.1039/C8SC02339E"></span>
 									</li>
 									<li>Predicting Enzymatic Reactions with a Molecular Transformer <br/>  
@@ -140,7 +154,7 @@
 								<ul class="alt">
 									<li>Predicting retrosynthetic pathways using a combined linguistic model and hyper-graph exploration strategy. 
 										<br/> <b>P Schwaller</b>, R Petraglia, V Zullo, V H Nair, R A Haeuselmann, R Pisoni, C Bekas, A Iuliano, T Laino<br/>
-										• <a href="http://dx.doi.org/10.1039/c9sc05704h">Chem. Sci., 2020,11, 3316-3325 </a>
+										• <a href="http://dx.doi.org/10.1039/c9sc05704h">Chem. Sci., 2020,11, 3316-3325 </a> | <a href="https://www.ibm.com/blogs/research/2019/10/ibm-brings-ai-retrosynthetic-analysis-to-the-cloud/">[Blog]</a> 
 										<span class="altmetric-embed badge-right" data-badge-type="4" data-doi="10.1039/c9sc05704h"></span>
 									</li>
 									<li>Unassisted Noise-Reduction of Chemical Reactions Data Sets. <br/>  
@@ -150,26 +164,14 @@
 									</li>
 								</ul>
 
-								<h4>Mapping Chemical Reaction Space</h4>
-								<span class="image main"><img src="images/map.png" alt=""/></span>
-								<ul class="alt">	
-									<li>Data-Driven Chemical Reaction Classification, Fingerprinting and Clustering using Attention-Based Neural Networks. <br/>  
-										<b>P Schwaller</b>, D Probst, AC Vaucher, VH Nair, T Laino, JL Reymond <br/>
-									• <a href="http://dx.doi.org/10.26434/chemrxiv.9897365">ChemRxiv preprint, 2019 </a><br/>
-									• <a href="https://rxn4chemistry.github.io/rxnfp/">Demo/Tutorial/Code</a>
-									<span class="altmetric-embed badge-right" data-badge-type="4" data-doi="10.26434/chemrxiv.9897365"></span>
-									</li>
-								</ul>
-
-
 								<h4>Unsupervised Atom-mapping in Chemical Reactions</h4>
 								<span class="image main"><img src="images/rxnmapper-small-short.gif" alt=""/><span class="credits">Credits: <a href="https://twitter.com/hen_str">Hendrik</a></span></span>
 								<ul class="alt">
 									<li>RXNMapper: Unsupervised Attention-Guided Atom-Mapping. <br/>
 										<b>P Schwaller</b>, B Hoover, JL Reymond, H Strobelt, T Laino<br/>
 									• <a href="http://dx.doi.org/10.26434/chemrxiv.12298559">ML Interpretability for Scientific Discovery ICML workshop | ChemRxiv preprint, 2020 </a> <br/>
-									• <a href="http://rxnmapper.ai">Demo/Code</a> <br/>
-									• <a href="https://vimeo.com/434757113">2 min explanation</a>
+									• <a href="http://rxnmapper.ai">[Demo/Code]</a> | <a href="https://vimeo.com/434757113">[2 min explanation]</a> <br/>
+									• Featured in: <a href="https://bdtechtalks.com/2020/08/31/ibm-roborxn-ai-robotics-chemical-research/">[TechTalks]</a>
 									<span class="altmetric-embed badge-right" data-badge-type="4" data-doi="10.26434/chemrxiv.12298559"></span>
 
 									</li>
@@ -195,7 +197,9 @@
 								<ul class="alt">
 									<li>Automated extraction of chemical synthesis actions from experimental procedures. 
 										<br/>AC Vaucher, F Zipoli, J Geluykens, VH Nair, <b>P Schwaller</b>, T Laino 
-										<br/>  <a href="https://doi.org/10.1038/s41467-020-17266-6">Nature Comm., 2020, 11, 3601 </a>
+										<br/> • <a href="https://doi.org/10.1038/s41467-020-17266-6">Nature Comm., 2020, 11, 3601 </a>
+										<br/> • <a href="https://www.nature.com/collections/gcijejjahe">Computation and Machine Learning for Chemistry - Editors' highlights</a>
+										<br/> • Featured in: <a href="https://cen.acs.org/business/informatics/IBM-debuts-chemical-synthesis-robot/98/i34">[C&EN]</a>
 										<span class="altmetric-embed badge-right" data-badge-type="4" data-doi="10.1038/s41467-020-17266-6"></span>
 									</li>
 									<li>Completion of Partial Reaction Equations<br/>  
@@ -224,7 +228,7 @@
 									<li>6th C4 workshop hosted by the University of Zurich, invited, 2019</li>
 									<li>Machine Learning meets Chemistry 2020, University of Turin, invited, 2020</li>
 									<li>CUP XX, OpenEye Scientific, Santa Fe, invited, 2020</li>
-									<li>International Mini-Symposium on Molecular Machine Learning, virtual, invited, 2020</li>
+									<li>1st International Mini-Symposium on Molecular Machine Learning, virtual, invited, 2020</li>
 									<li>NeurIPS workshop Machine Learning for Molecules, spotlight, 2020</li>
 								</ul>
 
@@ -504,7 +508,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<p class="copyright">&copy; Philippe Schwaller. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<p class="copyright">&copy; Philippe Schwaller. Design: <a href="https://html5up.net">HTML5 UP</a>. <br/>Photo: View from Piz Languard.</p>
 					</footer>
 
 			</div>
